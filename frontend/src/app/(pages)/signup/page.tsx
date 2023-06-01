@@ -1,5 +1,4 @@
 import styles from "../../styles/page.module.scss";
-import Head from "next/head";
 import Image from "next/image";
 
 import logoImg from "../../../../public/logo.svg";

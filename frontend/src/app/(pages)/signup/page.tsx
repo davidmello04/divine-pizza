@@ -1,10 +1,10 @@
-import styles from "../../styles/page.module.scss";
+import styles from "../../../styles/page.module.scss";
 import Image from "next/image";
 
 import logoImg from "../../../../public/logo.svg";
 
-import { Input } from "../../components/ui/input";
-import { Button } from "../../components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
 
 import Link from "next/link";
 

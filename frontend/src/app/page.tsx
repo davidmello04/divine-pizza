@@ -1,15 +1,15 @@
 "use client";
 
 import { useContext, FormEvent, useState } from "react";
-import styles from "../app/styles/page.module.scss";
+import styles from "../styles/page.module.scss";
 import Image from "next/image";
 
 import logoImg from "../../public/logo.svg";
 
-import { Input } from "./components/ui/input";
-import { Button } from "./components/ui/button";
+import { Input } from "@/components/ui/input"; 
+import { Button } from "@/components/ui/button";
 
-import { AuthContext } from "./contexts/AuthContext";
+import { AuthContext } from "@/contexts/AuthContext";
 
 import Link from "next/link";
 
@@ -36,7 +36,7 @@ export default function Home() {
         <>
             <title>Faça seu login</title>
             <div className={styles.containerCenter}>
-                <Image src={logoImg} alt="Logo Divine Pizza" />
+                <Image src={logoImg} alt="Logo Divine Pizza" priority/>
 
                 <div className={styles.login}>
                     <form onSubmit={handleLogin}>

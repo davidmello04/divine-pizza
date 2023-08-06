@@ -1,4 +1,4 @@
-# divine-pizzaa
+# divine-pizza
 
 O Divine Pizza é um aplicativo de pizzaria que permite ao administrador cadastrar novos produtos e categorias no cardápio da pizzaria, além de possibilitar aos garçons atender os clientes, registrar pedidos e gerenciar a produção na cozinha.
 
